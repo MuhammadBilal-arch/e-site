@@ -1,5 +1,4 @@
 import React from "react";
-import { ArrowRightOutlined, ArrowLeftOutlined } from "@ant-design/icons";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -85,6 +84,7 @@ export const Carousel = () => {
             width="100%"
             height="100%"
             src={item.src}
+            alt={index}
             style={{ padding: "0 10px", borderRadius: "2%" }}
           />
         </div>

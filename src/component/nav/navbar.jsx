@@ -9,8 +9,6 @@ import {
 } from "@ant-design/icons";
 import { Link } from "react-router-dom";
 import { getItems } from "../../Redux/Actions/itemActions";
-// import Search from "antd/lib/transfer/search";
-const { Search } = Input;
 
 const Navbar = () => {
   const [dropdownItem, setdropdownItem] = useState("Grocery");
