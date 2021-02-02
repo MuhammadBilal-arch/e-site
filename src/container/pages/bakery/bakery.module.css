@@ -1,0 +1,15 @@
+.bg_container {
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-image: url("../../images/bakery-0af0dc17acb39311c8936e21873ead53.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
