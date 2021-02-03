@@ -4,6 +4,7 @@ import { Row, Col, Button } from "antd";
 import lime from "./imagesApi/lime.jpg";
 import lemon from "./imagesApi/Lemon.jpg";
 import Cherry from "./imagesApi/Cherry.jpg";
+import Pepper from "./imagesApi/Pepper.jpg";
 import { ShoppingCartOutlined } from "@ant-design/icons";
 import { getcartItems } from "../../../Redux/Actions/itemActions";
 import classes from "./grocery.module.css";
@@ -19,7 +20,7 @@ export const GroceryApi = () => {
         "The lemon/lime, Citrus limon Osbeck, is a species of small evergreen tree in the flowering plant family Rutaceae, native to South Asia, primarily North eastern India.",
       ctgry: { ctg1: "Fruits & Vegetables", ctg2: "vegetables" },
       amount: 1.5,
-      imgSrc: "/img/lime.jpg",
+      imgSrc: lime,
       quantity: 1,
     },
     {
@@ -29,7 +30,7 @@ export const GroceryApi = () => {
         "The lemon/lime, Citrus limon Osbeck, is a species of small evergreen tree in the flowering plant family Rutaceae, native to South Asia, primarily North eastern India.",
       ctgry: { ctg1: "Fruits & Vegetables", ctg2: "vegetables" },
       amount: 1.5,
-      imgSrc: "/img/Lemon.jpg",
+      imgSrc: lemon,
       quantity: 1,
     },
     {
@@ -39,7 +40,7 @@ export const GroceryApi = () => {
         "A cherry is the fruit of many plants of the genus Prunus, and is a fleshy drupe. Commercial cherries are obtained from cultivars of several species, such as the sweet Prunus avium and the sour Prunus cerasus.",
       ctgry: { ctg1: "Fruits & Vegetables", ctg2: "vegetables" },
       amount: 2,
-      imgSrc: "/img/cherry.jpg",
+      imgSrc: Cherry,
       quantity: 1,
     },
     {
@@ -49,7 +50,7 @@ export const GroceryApi = () => {
         "The lemon/lime, Citrus limon Osbeck, is a species of small evergreen tree in the flowering plant family Rutaceae, native to South Asia, primarily North eastern India.",
       ctgry: { ctg1: "Fruits & Vegetables", ctg2: "vegetables" },
       amount: 1.2,
-      imgSrc: "/img/Pepper.jpg",
+      imgSrc: Pepper,
       quantity: 1,
     },
     {
